@@ -14,5 +14,3 @@ def fib_N(n: int) -> int:
         first = tmp
 
     return second
-
-print(fib_N(1))
