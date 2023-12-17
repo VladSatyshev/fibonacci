@@ -82,10 +82,13 @@ f_{0}
 1\\
 0
 \end{pmatrix}
-
-Обозначим $M = \begin{pmatrix}
+```
+Обозначим 
+```math
+M = \begin{pmatrix}
 1 & 1\\
 1 & 0
-\end{pmatrix}^{n-1}
-и заметим, что $f_n = M_{00}$
+\end{pmatrix}^{n-1}$
 ```
+и заметим, что $f_n = m_{00}$.
+
