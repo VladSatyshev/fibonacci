@@ -3,7 +3,12 @@
 
 def mat_exp(A: list[list], n: int) -> list[list]:
     """
-    Возвращает исходную 2x2 матрицу, возведенную в n степень за O(Log(n))
+    Arguments:
+        A: list[list] - 2x2 matrix
+        n: int
+        
+    Returns:
+        list[list]: A**n
     """
     M = [[1, 0], [0, 1]]
 
