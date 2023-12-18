@@ -7,7 +7,7 @@ def fibonacci(n: int, a: str) -> int:
     Arguments:
         n: int (0 <= n <= 500)
         a: str ("N", "logN")
-    
+
     Returns:
         int: n-th Fibonacci number in O(n) or O(log(N)) based on the specified alghorithm (N or logN).
         Provides type and value checks of the inputs.

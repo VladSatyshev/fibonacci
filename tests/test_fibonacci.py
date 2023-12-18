@@ -60,7 +60,6 @@ class TestFibonacci(unittest.TestCase):
 
     def test_value_n_over500_fib_LogN(self):
         self.assertRaises(ValueError, fibonacci, 501, "LogN")
-    
+
     def test_wrong_value_a(self):
         self.assertRaises(ValueError, fibonacci, 100, "Log(N)")
-

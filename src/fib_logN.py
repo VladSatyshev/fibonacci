@@ -1,5 +1,6 @@
 # from time import sleep
 
+
 def mat_exp(A: list[list], n: int) -> list[list]:
     """
     Возвращает исходную 2x2 матрицу, возведенную в n степень за O(Log(n))
