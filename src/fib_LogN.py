@@ -1,12 +1,10 @@
 # from time import sleep
-
-
 def mat_exp(A: list[list], n: int) -> list[list]:
     """
     Arguments:
         A: list[list] - 2x2 matrix
         n: int
-        
+
     Returns:
         list[list]: A**n
     """
