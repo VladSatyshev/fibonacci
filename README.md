@@ -29,6 +29,6 @@ python fib.py --test
 ```
 
 ### Дополнительно
-Общие комментарии к программе находятся в [файле](md/prog_comments.md).
+Общие комментарии к программе находятся в [файле](https://github.com/VladSatyshev/fibonacci/blob/main/md/prog_comments.md).
 
-Пояснение алгоритма вычисления числа Фибоначчи за $O(\log N)$ находится в [файле](md/logN_explanation.md).
+Пояснение алгоритма вычисления числа Фибоначчи за $O(\log N)$ находится в [файле](https://github.com/VladSatyshev/fibonacci/blob/main/md/logN_explanation.md).
