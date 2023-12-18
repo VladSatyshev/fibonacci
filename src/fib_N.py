@@ -1,6 +1,11 @@
+# from time import sleep
 def fib_N(n: int) -> int:
     """
-    Возвращает число Фибоначчи от n за O(n)
+    Arguments:
+        n: int >= 0
+
+    Returns:
+        int: n-th Fibonacci number in O(n)
     """
 
     if n == 0:
@@ -8,7 +13,8 @@ def fib_N(n: int) -> int:
 
     first, second = 0, 1
 
-    for _ in range(2, n):
+    for _ in range(1, n):
+        # sleep(10**-3)
         tmp = second
         second = first + second
         first = tmp
